@@ -1,0 +1,90 @@
+.left-post-box{
+ /* width: 550px; */
+}
+
+.post-body{
+  display: flex;
+}
+
+.right-post-box{
+    padding: 20px;
+    width: 550px;
+    height:60%;
+    background: white;
+   }
+
+.post img{
+    /* width: 550px;
+    border-radius: 20px; */
+}
+
+
+.tag-btn{
+    /* width: 110px; */
+    height: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tag-btn:hover{
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+@media screen and (max-width:1200px){
+
+    .left-post-box{
+        /* width: 450px; */
+       }
+       
+       .post img{
+         
+         
+       }
+       .right-post-box{
+        width: 440px;
+       }
+    }
+
+    @media screen and (max-width:990px){
+        .left-post-box{
+            /* width: 350px; */
+           }
+           
+           .post img{
+            
+           
+           }
+           .right-post-box{
+            width: 350px;
+           }
+        @media screen and (max-width:770px){
+            .left-post-box{
+                /* width: 500px; */
+               }
+
+               .post-body{
+                 display: inline;
+               }
+               
+               .post img{
+                   
+               }
+               .right-post-box{
+                width: 500px;
+               }
+        }
+
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      
+    
+      .hide-scrollbar{
+        -ms-overflow-style: none;  
+        scrollbar-width: none;  
+      }
+    
